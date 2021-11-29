@@ -20,7 +20,7 @@ body {
   color: slategrey;
   text-decoration: none;
   font-size: 1.5vw;
-  margin: 3%;
+  margin: 2.5vw;
   transition: all 0.2s;
 }
 
@@ -57,6 +57,9 @@ body {
 
 /* 前方介绍区域，诸人禁行 */
 /* 这是Introduction的地盘 */
+#iN {
+  color: black;
+}
 #second {
   background-image: url(./images/transition.png);
   background-size: cover;
@@ -86,7 +89,7 @@ body {
   color: rgb(39, 115, 187);
 }
 #mk {
-  width: 35%;
+  width: 32%;
   height: 40vw;
   float: right;
 }
@@ -161,6 +164,10 @@ body {
 /* introduction的地盘没了 */
 
 /* 到了“关于我们”的地盘了 */
+#AB {
+  border-radius: 2%;
+  background-color: rgba(255, 228, 196, 0.4);
+}
 /* 两张图片一段字 */
 #pt1 {
   width: 20%;
@@ -189,12 +196,12 @@ body {
 /* diversity */
 #DS {
   margin-left: 15vw;
-  width: 20%;
-  height: 25vw;
+  width: 23%;
+  height: 30vw;
   text-align: center;
   border: 5px solid rebeccapurple;
   border-radius: 30%;
-  padding-top: 2vw;
+  padding-top: 1vw;
   float: left;
 }
 #ds {
@@ -207,12 +214,12 @@ body {
 /* 时间啦 */
 #SJ {
   margin-right: 15vw;
-  width: 20%;
-  height: 25vw;
+  width: 23%;
+  height: 30vw;
   text-align: center;
   border: 5px solid rebeccapurple;
   border-radius: 30%;
-  padding-top: 2vw;
+  padding-top: 1vw;
   float: right;
 }
 #sj {
@@ -293,18 +300,29 @@ ul {
 }
 
 /* 三个按钮 */
+#btn1 {
+  float: left;
+  margin: 0 auto;
+  width: 15%;
+}
+#btn2 {
+  float: left;
+  width: 15%;
+  margin-left: 13.5vw;
+}
+#btn3 {
+  float: right;
+  margin: 0 auto;
+  width: 15%;
+}
 button {
   text-align: center;
-  font-size: 0.1vw;
-  word-spacing: 1%;
   background-color: rgb(30, 95, 30);
   color: #fff;
-  display: inline-block;
-  margin: 6%;
   border-radius: 20%;
   border: none;
-  width: 9vw;
-  height: 3.5vw;
+  width: 10vw;
+  height: 4vw;
 }
 button:hover {
   color: rgb(48, 116, 48);
