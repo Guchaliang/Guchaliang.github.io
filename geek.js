@@ -7,7 +7,7 @@ function copyToClip(content, message) {
   document.execCommand("copy");
   document.body.removeChild(aux);
   if (message == null) {
-    alert("邮箱内容已复制到粘贴板");
+    alert("The mailbox contents have been copied to the pasteboard");
   } else {
     alert(message);
   }
@@ -15,15 +15,14 @@ function copyToClip(content, message) {
 
 // 下面这是关于更多问题的互动方面的代码，刚刚开始确实是没想到这么写，if语句里的条件太离谱了，思维定式了，感觉还是得多想想
 var LU = document.querySelector("#lu");
-    var lu = LU.children;
-    var flag = 0;
-    for (var i = 0; i < lu.length; i++) {
-      lu[i].onclick = function () {
-        if (this.children[1].style.display == "none") {
-          this.children[1].style.display = "block";
-        } else {
-          this.children[1].style.display = "none";
-        }
-      }
+var lu = LU.children;
+var flag = 0;
+for (var i = 0; i < lu.length; i++) {
+  lu[i].onclick = function () {
+    if (this.children[1].style.display == "none") {
+      this.children[1].style.display = "block";
+    } else {
+      this.children[1].style.display = "none";
     }
-
+  };
+}
