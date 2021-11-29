@@ -1,0 +1,355 @@
+body {
+  font-family: cursive;
+  text-align: center;
+}
+
+/* 悬挂式菜单 */
+.hang {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  height: 7%;
+  background-color: rgba(255, 228, 196, 0.9);
+  border-radius: 50%;
+  padding-top: 0.5vw;
+  position: fixed;
+}
+
+/* 字体样式 */
+.hang a {
+  color: slategrey;
+  text-decoration: none;
+  font-size: 1.5vw;
+  margin: 3%;
+  transition: all 0.2s;
+}
+
+/* 中间那个NewThread */
+#New {
+  font-size: 2.5vw;
+}
+.hang a:hover {
+  color: white;
+}
+/* 我只是条无情的分割线 */
+
+/* 首页内容 */
+/* 背景图 */
+.background {
+  margin: 0 auto;
+  width: 100%;
+  height: 60vw;
+  background-image: url(./images/leader.png);
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+/* 这个是可以动的那个 */
+#leader {
+  margin-top: 100px;
+  width: 30%;
+  transition: all 0.5s;
+}
+#leader:hover {
+  transform: scale(1.15);
+}
+/* 分割线 */
+
+/* 前方介绍区域，诸人禁行 */
+/* 这是Introduction的地盘 */
+#second {
+  background-image: url(./images/transition.png);
+  background-size: cover;
+  width: 100%;
+  height: 12vw;
+  text-align: center;
+}
+
+/* 那个Introduction的样式 */
+#second h1 {
+  font-size: 5vw;
+  color: cornflowerblue;
+}
+
+/* 这是开发Monkey */
+#wd {
+  text-align: center;
+  width: 95%;
+}
+#char1 {
+  width: 50%;
+  float: left;
+  text-align: left;
+  font-size: 2vw;
+  margin-left: 100px;
+}
+#EN {
+  color: rgb(39, 115, 187);
+}
+#mk {
+  width: 35%;
+  height: 40vw;
+  float: right;
+}
+/* 分割线 */
+
+/* 这是与前端抗争的PM */
+#PM {
+  text-align: center;
+  width: 95%;
+}
+#psp {
+  width: 35%;
+  height: 40vw;
+  float: left;
+  margin-left: 10%;
+}
+#char2 {
+  width: 50%;
+  float: right;
+  text-align: left;
+  font-size: 2vw;
+}
+#IN {
+  color: rgb(100, 37, 124);
+}
+/* 分割线 */
+
+/* 学AI的是不是都比较容易头秃 */
+#AI {
+  text-align: center;
+  width: 95%;
+}
+#char3 {
+  width: 50%;
+  float: left;
+  text-align: left;
+  font-size: 2vw;
+  margin-left: 100px;
+}
+#ai {
+  width: 35%;
+  height: 40vw;
+  float: right;
+}
+#math {
+  color: skyblue;
+}
+/* 分割线 */
+
+/* 这是可以做出元气骑士的unity游戏 */
+#UN {
+  text-align: center;
+  width: 95%;
+}
+#un {
+  width: 35%;
+  height: 40vw;
+  float: left;
+  margin-left: 100px;
+}
+#char4 {
+  width: 50%;
+  float: right;
+  text-align: left;
+  font-size: 2vw;
+}
+#Un {
+  color: turquoise;
+}
+/* 分割线 */
+/* introduction的地盘没了 */
+
+/* 到了“关于我们”的地盘了 */
+/* 两张图片一段字 */
+#pt1 {
+  width: 20%;
+  display: block;
+  float: left;
+}
+#pt2 {
+  width: 40%;
+  font-size: 5vw;
+  margin-left: 10%;
+  display: block;
+  float: left;
+  color: rgb(31, 114, 100);
+}
+#pt3 {
+  width: 20%;
+  display: block;
+  float: right;
+}
+/* 记得清除浮动 */
+.clearfix {
+  clear: both;
+}
+
+/* “关于我们”的内容 */
+/* diversity */
+#DS {
+  margin-left: 15vw;
+  width: 20%;
+  height: 25vw;
+  text-align: center;
+  border: 5px solid rebeccapurple;
+  border-radius: 30%;
+  padding-top: 2vw;
+  float: left;
+}
+#ds {
+  width: 30%;
+}
+#dch {
+  font-size: 2vw;
+}
+
+/* 时间啦 */
+#SJ {
+  margin-right: 15vw;
+  width: 20%;
+  height: 25vw;
+  text-align: center;
+  border: 5px solid rebeccapurple;
+  border-radius: 30%;
+  padding-top: 2vw;
+  float: right;
+}
+#sj {
+  width: 30%;
+}
+#sch {
+  font-size: 2vw;
+}
+
+/* 那只蝴蝶的样式 */
+#hd {
+  width: 15%;
+  display: block;
+  float: right;
+  margin-right: 2vw;
+}
+.clearfix {
+  clear: both;
+}
+
+/* 实不相瞒，这是俩张翻转图片 */
+#f {
+  margin-left: 8%;
+  width: 20%;
+  display: block;
+  float: left;
+}
+#s {
+  margin-right: 8%;
+  width: 20%;
+  display: block;
+  float: right;
+}
+.clearfix {
+  clear: both;
+}
+/* 你已经走出“关于我们”的地盘了 */
+
+/* 走到这里不得联系一下我们吗 */
+/* 关于俩张有图片做标题差点心态爆炸的故事 */
+#yz {
+  display: block;
+  width: 15%;
+  float: left;
+  margin-left: 25vw;
+}
+#con {
+  display: block;
+  width: 25%;
+  height: 10vw;
+  float: left;
+}
+.clearfix {
+  clear: both;
+}
+
+/* 联系我们的方式 */
+ul {
+  text-align: left;
+  font-size: 2vw;
+  display: block;
+  float: left;
+  width: 50%;
+  margin-left: 25vw;
+}
+#btn {
+  float: left;
+  width: 50%;
+  margin-left: 25vw;
+}
+#tree {
+  width: 10%;
+  height: 25vw;
+  float: right;
+}
+.clearfix {
+  clear: both;
+}
+
+/* 三个按钮 */
+button {
+  text-align: center;
+  font-size: 0.1vw;
+  word-spacing: 1%;
+  background-color: rgb(30, 95, 30);
+  color: #fff;
+  display: inline-block;
+  margin: 6%;
+  border-radius: 20%;
+  border: none;
+  width: 9vw;
+  height: 3.5vw;
+}
+button:hover {
+  color: rgb(48, 116, 48);
+  background-color: darkgray;
+  transition: all 0.4s;
+}
+.clearfix {
+  clear: both;
+}
+/* 你不会一个都没点吧 */
+/* 联系方式就这些了，其他的不知道有没有 */
+
+/* 还有问题吗？ */
+/* 背景哈 */
+#more {
+  background-image: url(./images/lansebeijing.png);
+  background-size: 100% 100%;
+  width: 95%;
+  height: 120vw;
+  text-align: center;
+}
+
+/* 下面都是内容了 */
+#mo {
+  width: 50%;
+  height: 10vw;
+  display: block;
+  margin-left: 17vw;
+  text-align: center;
+  margin-top: 10vw;
+}
+#lu {
+  margin-top: 10vw;
+}
+.lu {
+  font-size: 1.5vw;
+}
+.a {
+  transition: all 0.4s;
+}
+.a:hover {
+  font-size: 1.75vw;
+  color: cornsilk;
+}
+.c {
+  display: none;
+}
+/* 莫得了 */
