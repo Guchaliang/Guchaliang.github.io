@@ -362,6 +362,7 @@ button:hover {
 }
 .a {
   transition: all 0.4s;
+  text-decoration: none;
 }
 .a:hover {
   font-size: 1.75vw;
