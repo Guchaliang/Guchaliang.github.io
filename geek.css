@@ -5,15 +5,13 @@ body {
 
 /* 悬挂式菜单 */
 .hang {
-  margin: 0 auto;
   text-align: center;
   width: 100%;
   background-color: rgba(255, 228, 196, 0.9);
-  height: 4vw;
+  height: 50px;
   border-radius: 50%;
   position: fixed;
-  padding-top: 0.5vw;
-  line-height: 3vw;
+  line-height: 40px;
 }
 
 /* 字体样式 */
@@ -21,7 +19,7 @@ body {
   color: slategrey;
   text-decoration: none;
   font-size: 1.5vw;
-  margin: 0 2.5vw;
+  margin: 0 45px;
   transition: all 0.2s;
 }
 
@@ -309,7 +307,7 @@ ul {
 #btn2 {
   float: left;
   width: 18%;
-  margin-left: 13.5vw;
+  margin-left: 14vw;
 }
 #btn3 {
   float: right;
@@ -324,7 +322,7 @@ button {
   border: none;
   width: 12vw;
   height: 5vw;
-  font-size: 1.3vw;
+  font-size: 15px;
 }
 button:hover {
   color: rgb(48, 116, 48);
