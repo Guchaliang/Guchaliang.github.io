@@ -11,8 +11,8 @@ body {
   background-color: rgba(255, 228, 196, 0.9);
   height: 4vw;
   border-radius: 50%;
-  padding-top: 0.7vw;
   position: fixed;
+  padding-top: 0.5%;
 }
 
 /* ×ÖÌåÑùÊ½ */
@@ -287,8 +287,8 @@ ul {
 }
 #btn {
   float: left;
-  width: 50%;
-  margin-left: 25vw;
+  width: 65%;
+  margin-left: 20vw;
 }
 #tree {
   width: 10%;
@@ -308,7 +308,7 @@ ul {
 #btn2 {
   float: left;
   width: 18%;
-  margin-left: 11vw;
+  margin-left: 13.5vw;
 }
 #btn3 {
   float: right;
