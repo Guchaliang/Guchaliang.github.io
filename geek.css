@@ -11,7 +11,7 @@ body {
   background-color: rgba(255, 228, 196, 0.9);
   height: 4vw;
   border-radius: 50%;
-  padding-top: 0.75vw;
+  padding-top: 0.7vw;
   position: fixed;
 }
 
@@ -303,17 +303,17 @@ ul {
 #btn1 {
   float: left;
   margin: 0 auto;
-  width: 15%;
+  width: 18%;
 }
 #btn2 {
   float: left;
-  width: 15%;
-  margin-left: 13.5vw;
+  width: 18%;
+  margin-left: 11vw;
 }
 #btn3 {
   float: right;
   margin: 0 auto;
-  width: 15%;
+  width: 18%;
 }
 button {
   text-align: center;
@@ -323,7 +323,7 @@ button {
   border: none;
   width: 10vw;
   height: 4vw;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
 }
 button:hover {
   color: rgb(48, 116, 48);
