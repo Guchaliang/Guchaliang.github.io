@@ -300,6 +300,9 @@ ul {
 }
 
 /* Èý¸ö°´Å¥ */
+#btn {
+  font-size: 2vw;
+}
 #btn1 {
   float: left;
   margin: 0 auto;
