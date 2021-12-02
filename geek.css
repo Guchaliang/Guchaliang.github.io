@@ -12,7 +12,8 @@ body {
   height: 4vw;
   border-radius: 50%;
   position: fixed;
-  padding-top: 0.5%;
+  padding-top: 0.5vw;
+  line-height: 3vw;
 }
 
 /* ×ÖÌåÑùÊ½ */
@@ -323,7 +324,7 @@ button {
   border: none;
   width: 12vw;
   height: 5vw;
-  font-size: 1.4vw;
+  font-size: 1.3vw;
 }
 button:hover {
   color: rgb(48, 116, 48);
