@@ -11,7 +11,7 @@ body {
   background-color: rgba(255, 228, 196, 0.9);
   height: 4vw;
   border-radius: 50%;
-  padding-top: 0.5vw;
+  padding-top: 0.75vw;
   position: fixed;
 }
 
@@ -20,7 +20,7 @@ body {
   color: slategrey;
   text-decoration: none;
   font-size: 1.5vw;
-  margin: 2.5vw;
+  margin: 0 2.5vw;
   transition: all 0.2s;
 }
 
@@ -326,6 +326,7 @@ button {
   border: none;
   width: 10vw;
   height: 4vw;
+  font-size: 1.5vw;
 }
 button:hover {
   color: rgb(48, 116, 48);
