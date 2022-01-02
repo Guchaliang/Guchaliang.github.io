@@ -117,6 +117,27 @@ body {
 }
 /* 分割线 */
 
+/*安全工程师*/
+#SA {
+  text-align: center;
+  width: 95%;
+}
+#psa {
+  width: 35%;
+  height: 45vw;
+  float: right;
+}
+#char5 {
+  width: 50%;
+  float: left;
+  text-align: left;
+  font-size: 2vw;
+  margin-left: 10%;
+}
+#Sa {
+  color: rgb(117, 117, 22);
+}
+
 /* 学AI的是不是都比较容易头秃 */
 #AI {
   text-align: center;
@@ -124,7 +145,7 @@ body {
 }
 #char3 {
   width: 50%;
-  float: left;
+  float: right;
   text-align: left;
   font-size: 2vw;
   margin-left: 10%;
@@ -132,7 +153,7 @@ body {
 #ai {
   width: 35%;
   height: 40vw;
-  float: right;
+  float: left;
 }
 #math {
   color: skyblue;
