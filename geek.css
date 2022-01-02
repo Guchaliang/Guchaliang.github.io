@@ -148,12 +148,13 @@ body {
   float: right;
   text-align: left;
   font-size: 2vw;
-  margin-left: 10%;
 }
 #ai {
   width: 35%;
   height: 40vw;
   float: left;
+  margin-left: 2%;
+  margin-top: 3%;
 }
 #math {
   color: skyblue;
@@ -167,15 +168,15 @@ body {
 }
 #un {
   width: 35%;
-  height: 40vw;
-  float: left;
-  margin-left: 10%;
+  height: 45vw;
+  float: right;
 }
 #char4 {
   width: 50%;
-  float: right;
+  float: left;
   text-align: left;
   font-size: 2vw;
+  margin-left: 10%;
 }
 #Un {
   color: turquoise;
